@@ -1,2 +1,2 @@
 # devops-util
-docker-cli, docker-compose, kubectl, oc (openshift-cli), jq, curl, wget, p7zip, scopeo, buildah, mutt, tree
+docker-cli, docker-compose, kubectl, oc (openshift-cli), bash-completion, jq, curl, wget, p7zip, scopeo, buildah, mutt, tree
