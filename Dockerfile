@@ -33,6 +33,7 @@ RUN apt-get update && \
       skopeo \
       buildah \
       p7zip \
+      netcat \
       mutt && \
     apt-get clean && \
     curl -L https://raw.githubusercontent.com/docker/compose/1.26.2/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose && \
