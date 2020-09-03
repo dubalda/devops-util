@@ -32,6 +32,7 @@ RUN apt-get update && \
       docker-ce-cli \
       docker-compose \
       kubectl \
+      helm \
       skopeo \
       buildah \
       p7zip \
