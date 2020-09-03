@@ -4,5 +4,6 @@ docker-cli, docker-compose, kubectl, oc (openshift-cli), helm, bash-completion, 
 
 # Add repo to helm
 
-`helm repo add stable https://kubernetes-charts.storage.googleapis.com/  
+`helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+
 helm repo update`
