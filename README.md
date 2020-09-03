@@ -1,5 +1,5 @@
 # devops-util
-docker-cli, docker-compose, kubectl, oc (openshift-cli), helm, bash-completion, jq, curl, wget, p7zip, scopeo, buildah, mutt, tree
+
 <ul>
 <li>docker-cli (bash-completion)</li>
 <li>docker-compose (bash-completion)</li>
