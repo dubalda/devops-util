@@ -45,4 +45,7 @@ RUN apt-get update && \
     tar xvzf openshift-client-linux.tar.gz && \
     rm -f openshift-client-linux.tar.gz kubectl README.md && \
     mv oc /usr/bin/ && \
-    oc completion bash > /etc/bash_completion.d/oc_bash_completion
+    oc completion bash > /etc/bash_completion.d/oc_bash_completion && \
+    curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash && \
+    mv kustomize /usr/bin/
+
