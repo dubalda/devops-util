@@ -6,6 +6,7 @@
 <li>kubectl (bash-completion)</li>
 <li>oc (openshift-cli, bash-completion)</li>
 <li>helm</li>
+<li>kustomize</li>
 <li>buildah</li>
 <li>scopeo</li>
 <li>jq</li>
