@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Moscow
 
 RUN apt-get update && \
-    apt-get -y install \
+    apt-get -y --quiet --no-install-recommends install \
       ca-certificates \
       apt-utils \
       apt-transport-https \
@@ -28,7 +28,7 @@ RUN apt-get update && \
     echo "deb https://baltocdn.com/helm/stable/debian/ all main" | tee /etc/apt/sources.list.d/helm-stable-debian.list && \
     apt-get update && \
     echo "For custom version set: apt-get -y install docker-ce-cli=<VERSION_STRING>, for ex. 5:18.09.1~3-0~debian-stretch" && \
-    apt-get -y install \
+    apt-get -y --quiet --no-install-recommends install \
       docker-ce-cli \
       docker-compose \
       kubectl \
