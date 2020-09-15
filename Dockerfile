@@ -29,6 +29,7 @@ RUN apt-get update && \
     apt-get update && \
     echo "For custom version set: apt-get -y install docker-ce-cli=<VERSION_STRING>, for ex. 5:18.09.1~3-0~debian-stretch" && \
     apt-get -y --quiet --no-install-recommends install \
+      pass \
       docker-ce-cli \
       docker-compose \
       kubectl \
