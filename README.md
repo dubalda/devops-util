@@ -13,6 +13,7 @@
 <li>jq</li>
 <li>curl</li>
 <li>wget</li>
+<li>git</li>
 <li>netcat</li>
 <li>tree</li>
 <li>mutt</li>
