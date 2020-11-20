@@ -50,7 +50,7 @@ RUN apt-get update && \
     oc completion bash > /etc/bash_completion.d/oc_bash_completion && \
     curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash && \
     mv kustomize /usr/bin/ && \
-    export IMG_SHA256="5b9a3b1720ea7bd2b85cb0e1d433b4e171f513fea74ea589f6f5aa8060f2a6ab" && \
+    export IMG_SHA256="cc9bf08794353ef57b400d32cd1065765253166b0a09fba360d927cfbd158088" && \
     curl -fSL "https://github.com/genuinetools/img/releases/download/v0.5.11/img-linux-amd64" -o "/usr/local/bin/img" && \
     echo "${IMG_SHA256}  /usr/local/bin/img" | sha256sum -c - && \
     chmod a+x "/usr/local/bin/img"
