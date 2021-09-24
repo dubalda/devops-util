@@ -18,6 +18,7 @@
 <li>tree</li>
 <li>mutt</li>
 <li>p7zip</li>
+<li>sqlplus64</li>
 </ul>
 
 ## Add repo to helm
